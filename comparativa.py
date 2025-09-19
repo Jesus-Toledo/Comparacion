@@ -1,8 +1,8 @@
 import pandas as pd
 
 # Cargar archivos
-agosto = pd.read_excel("Alarmas_Agosto.xlsx")
-septiembre = pd.read_excel("Alarmas_Septiembre.xlsx")
+agosto = pd.read_excel("Alarmas_20agost.xlsx")
+septiembre = pd.read_excel("Alarmas_18sep.xlsx")
 
 # Asegurarse de que los IDs son texto y están limpios
 agosto['Alarm_ID'] = agosto['Alarm_ID'].astype(str).str.strip()
